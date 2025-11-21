@@ -10,8 +10,14 @@ int main() {
     printf("A x B = %d\n", a * b);
     printf("A / B = %d\n", a / b);
     printf("A %% B = %d\n", a % b);
+    bool egal = (a == b);
+    bool superieur = (a > b);
+
+    printf("a == b : %d\n", egal);    
+    printf("a > b  : %d\n", superieur);
 
     return 0;
 }
+
 
 
