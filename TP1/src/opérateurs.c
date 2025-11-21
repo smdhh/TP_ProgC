@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h> 
 
 int main() {
     int a = 16;
@@ -18,6 +19,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
